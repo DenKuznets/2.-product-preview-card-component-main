@@ -182,9 +182,13 @@ img.desktop {
   }
 
   .container {
-    display: flex;
-    max-width: 645px;
+    max-width: 600px;
+    min-height: 100vh;
     margin: auto;
+  }
+  
+  main {
+    display: flex;
   }
 
   img, .hero {
