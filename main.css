@@ -93,6 +93,11 @@ body {
   background-color: var(--color-primary-cream);
 }
 
+.container {
+  max-width: 375px;
+  margin: auto;
+}
+
 img.mobile {  
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -169,16 +174,16 @@ img.desktop {
   width: auto;
 }
 
-@media (min-width:376px) {
+@media (min-width:800px) {
   body {
     font-size: 15px;
     display: flex;
     flex-direction: column;
   }
 
-  .desktop-container {
+  .container {
     display: flex;
-    width: 645px;
+    max-width: 645px;
     margin: auto;
   }
 
