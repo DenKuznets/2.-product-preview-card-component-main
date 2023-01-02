@@ -78,6 +78,7 @@ select {
 /* constants */
 /* colors */
 $darker-cyan: #1A4031;
+
 :root {
   --color-primary-cyan-dark: hsl(158, 36%, 37%);
   --color-primary-cream: hsl(30, 38%, 92%);
@@ -122,9 +123,9 @@ img.desktop {
 .hero h1 {
   color: var(--color-neutral-dark-grayish-blue);
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
-  letter-spacing: 5px;
+  letter-spacing: 6.1px;
 }
 
 .hero h2 {
@@ -214,6 +215,7 @@ img.desktop {
     display: block;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
+    box-shadow: 45px 45px 50px 20px rgba(34, 60, 80, 0.2) inset;
   }
 
   .hero {
@@ -221,7 +223,7 @@ img.desktop {
     padding: 1.9rem;
 
     h1 {
-      letter-spacing: 4.5px;
+      letter-spacing: 5.7px;
     }
 
     h2 {
@@ -231,11 +233,12 @@ img.desktop {
     p {
       margin-top: 1.5rem;
       letter-spacing: -.4px;
+      line-height: 1.55;
     }
   }
 
   .price {
-    margin-top: 1.1rem;
+    margin-top: 1.4rem;
   }
 
   .discount-price {
@@ -245,6 +248,7 @@ img.desktop {
 
   .cta {
     margin-top: 1.3rem;
+
     &:hover {
       cursor: pointer;
       background-color: $darker-cyan;
