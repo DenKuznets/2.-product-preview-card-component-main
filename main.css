@@ -115,14 +115,12 @@ img.desktop {
   background-color: var(--color-neutral-white);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  /* padding: 22px 25px; */
   padding: 1.5rem 1.4rem;
 }
 
 .hero h1 {
   color: var(--color-neutral-dark-grayish-blue);
   text-transform: uppercase;
-  /* font-size: 90%; */
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 5px;
@@ -233,5 +231,9 @@ img.desktop {
   }
   .cta {
     margin-top: 1.3rem;
+  }
+  .cta:hover {
+    cursor: pointer;
+    background-color: #1A4031;
   }
 }/*# sourceMappingURL=main.css.map */
