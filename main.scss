@@ -93,10 +93,13 @@ body {
 }
 
 .container {
-  outline: 1px solid red;
   padding: 1.7rem 1rem;
   max-width: 375px;
   margin: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img.mobile {
@@ -188,18 +191,15 @@ img.desktop {
     flex-direction: column;
   }
 
+
   .container {
     max-width: 600px;
-    min-height: 100vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0;
   }
 
   main {
     display: flex;
-    height: 450px;
+    // height: 450px;
   }
 
   img,
@@ -220,22 +220,32 @@ img.desktop {
 
   .hero {
     border-radius: 0 10px 10px 0;
-    padding: 35px;
-  }
+    padding: 1.9rem;
 
-  .hero h2 {
-    margin-top: 20px;
-  }
+    h1 {
+      letter-spacing: 4.5px;
+    }
 
-  .hero p {
-    margin-top: 30px;
+    h2 {
+      margin-top: 1.1rem;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      letter-spacing: -.4px;
+    }
   }
 
   .price {
-    margin-top: 30px;
+    margin-top: 1.1rem;
+  }
+
+  .discount-price {
+    font-size: .9rem;
+    letter-spacing: -.4px;
   }
 
   .cta {
-    margin-top: 30px;
+    margin-top: 1.3rem;
   }
 }
