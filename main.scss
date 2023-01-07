@@ -113,14 +113,14 @@ img.hero-img-desktop {
   display: none;
 }
 
-.hero {
+.hero-text {
   background-color: var(--color-neutral-white);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 1.5rem 1.4rem;
 }
 
-.hero h1 {
+.hero-text h1 {
   color: var(--color-neutral-dark-grayish-blue);
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -128,14 +128,14 @@ img.hero-img-desktop {
   letter-spacing: 6.1px;
 }
 
-.hero h2 {
+.hero-text h2 {
   font-family: 'Fraunces', serif;
   font-size: 2rem;
   line-height: 1;
   margin-top: 0.6rem;
 }
 
-.hero p {
+.hero-text p {
   color: var(--color-neutral-dark-grayish-blue);
   margin-top: 1rem;
   line-height: 1.6;
@@ -201,35 +201,21 @@ img.hero-img-desktop {
     display: flex;
   }
 
-  img,
-  .hero {
+  .hero-image,
+  .hero-text {
     width: 50%;
     height: auto;
   }
 
-  img.hero-img-mobile {
-    display: none;
-  }
-
-  img.hero-img-desktop {
-    display: block;
-    object-fit: cover;
-    border-radius: 10px 0 0 10px;
-    // box-shadow: 45px 45px 50px 20px rgba(34, 60, 80, 0.2) inset;
-    // filter: brightness(80%);
-  }
-  
-  .test {
-    width: 250px;
-    height: 250px;
+  .hero-image {
     background: url(images/image-product-desktop.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    box-shadow: 45px 45px 50px 20px rgba(34, 60, 80, 0.8) inset;
-    border-radius: 25px;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    filter: contrast(1.2);
+    box-shadow: 0px 0px 20px 160px rgb(34 60 80 / 10%) inset;
   }
 
-  .hero {
+  .hero-text {
     border-radius: 0 10px 10px 0;
     padding: 1.9rem;
 
