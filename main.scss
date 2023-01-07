@@ -110,11 +110,9 @@ body {
   background: url(images/image-product-mobile.jpg);
   height: 240px;
   background-size: contain;
+  filter: contrast(1.2);
+  box-shadow: 0px 0px 20px 160px rgb(34 60 80 / 10%) inset;
 }
-
-// img.hero-img-desktop {
-//   display: none;
-// }
 
 .hero-text {
   background-color: var(--color-neutral-white);
@@ -214,8 +212,6 @@ body {
     background: url(images/image-product-desktop.jpg);
     background-size: cover;
     border-radius: 10px 0 0 10px;
-    filter: contrast(1.2);
-    box-shadow: 0px 0px 20px 160px rgb(34 60 80 / 10%) inset;
   }
 
   .hero-text {
