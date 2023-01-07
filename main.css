@@ -102,12 +102,12 @@ body {
   justify-content: center;
 }
 
-img.mobile {
+img.hero-img-mobile {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-img.desktop {
+img.hero-img-desktop {
   display: none;
 }
 
@@ -199,15 +199,23 @@ img.desktop {
     width: 50%;
     height: auto;
   }
-  img.mobile {
+  img.hero-img-mobile {
     display: none;
   }
-  img.desktop {
+  img.hero-img-desktop {
     display: block;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 10px 0 0 10px;
-    box-shadow: 45px 45px 50px 20px rgba(34, 60, 80, 0.2) inset;
+  }
+  .test {
+    width: 250px;
+    height: 250px;
+    background: url(images/image-product-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 45px 45px 50px 20px rgba(34, 60, 80, 0.8) inset;
+    border-radius: 25px;
   }
   .hero {
     border-radius: 0 10px 10px 0;
