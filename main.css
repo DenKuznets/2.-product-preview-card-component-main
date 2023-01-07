@@ -102,13 +102,12 @@ body {
   justify-content: center;
 }
 
-img.hero-img-mobile {
+.hero-image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-}
-
-img.hero-img-desktop {
-  display: none;
+  background: url(images/image-product-mobile.jpg);
+  height: 240px;
+  background-size: contain;
 }
 
 .hero-text {
