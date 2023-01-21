@@ -60,7 +60,7 @@ responsive design, sass, learn react and start using it in exercises
 
 ## Author
 
-- Website - [Denis Kuznetsov](https://github.com/DenKuznets)
+- Github - [DenKuznets](https://github.com/DenKuznets)
 - Frontend Mentor - [@DenKuznets](https://www.frontendmentor.io/profile/DenKuznets)
 - Instagram - [@denis_kyznecov](https://www.instagram.com/denis_kyznecov/)
 
