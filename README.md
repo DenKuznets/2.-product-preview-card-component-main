@@ -40,9 +40,11 @@ Users should be able to:
 
 ### Built with
 
-HTML, CSS, SASS
-PixelParallel by htmlBurger chrome extension for pixel perfect comparison
-CSS reset by https://piccalil.li/blog/a-modern-css-reset/
+- HTML 
+- CSS
+- SASS
+- PixelParallel by htmlBurger chrome extension for pixel perfect comparison
+- CSS reset by https://piccalil.li/blog/a-modern-css-reset/
 
 ### What I learned
 
