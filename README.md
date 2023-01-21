@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DenKuznets/2.-product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://denkuznets.github.io/2.-product-preview-card-component-main/)
+- Solution URL: [https://github.com/DenKuznets/2.-product-preview-card-component-main]
+- Live Site URL: [https://denkuznets.github.io/2.-product-preview-card-component-main]
 
 ## My process
 
