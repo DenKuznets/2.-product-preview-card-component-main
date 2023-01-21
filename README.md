@@ -56,7 +56,6 @@ While doing this task, I found out that inset box-shadow doesn't work on an imag
 
 responsive design, sass, learn react and start using it in exercises
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 
 ## Author
